@@ -21,7 +21,7 @@ def retrieveNBADir(date, TOL):
             SystemExit(requests.exceptions.Timeout)
         else:
             time.sleep(60/TOL) 
-            return retrieveNBADir(TOL-1)
+            return retrieveNBADir(date,TOL-1)
     except requests.exceptions.TooManyRedirects:
         print("URL Bad, try a new one.")
     except requests.exceptions.RequestException as e: 

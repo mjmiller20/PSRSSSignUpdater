@@ -1,1 +1,121 @@
-<?xml version="1.0" encoding="UTF-8" ?><root><Date>2022-06-22</Date><NumGames>19</NumGames><MLB><item1><homeTeam>Texas Rangers</homeTeam><awayTeam>Philadelphia Phillies</awayTeam><homeScore>7</homeScore><awayScore>0</awayScore></item1><item2><homeTeam>Milwaukee Brewers</homeTeam><awayTeam>St.Louis Cardinals</awayTeam><homeScore>2</homeScore><awayScore>6</awayScore></item2><item3><homeTeam>Chicago White Sox</homeTeam><awayTeam>Toronto Blue Jays</awayTeam><homeScore>7</homeScore><awayScore>6</awayScore></item3><item4><homeTeam>Houston Astros</homeTeam><awayTeam>New York Mets</awayTeam><homeScore>8</homeScore><awayScore>2</awayScore></item4><item5><homeTeam>Los Angeles Angels</homeTeam><awayTeam>Kansas City Royals</awayTeam><homeScore>11</homeScore><awayScore>12</awayScore></item5><item6><homeTeam>Oakland Athletics</homeTeam><awayTeam>Seattle Mariners</awayTeam><homeScore>2</homeScore><awayScore>8</awayScore></item6><item7><homeTeam>San Diego Padres</homeTeam><awayTeam>Arizona Diamondbacks</awayTeam><homeScore>3</homeScore><awayScore>2</awayScore></item7><item8><homeTeam>Houston Astros</homeTeam><awayTeam>New York Mets</awayTeam><homeScore>5</homeScore><awayScore>3</awayScore></item8><item9><homeTeam>Chicago White Sox</homeTeam><awayTeam>Toronto Blue Jays</awayTeam><homeScore>5</homeScore><awayScore>9</awayScore></item9><item10><homeTeam>Texas Rangers</homeTeam><awayTeam>Philadelphia Phillies</awayTeam><homeScore>4</homeScore><awayScore>2</awayScore></item10><item11><homeTeam>San Diego Padres</homeTeam><awayTeam>Arizona Diamondbacks</awayTeam><homeScore>10</homeScore><awayScore>4</awayScore></item11><item12><homeTeam>Miami Marlins</homeTeam><awayTeam>Colorado Rockies</awayTeam><homeScore>7</homeScore><awayScore>4</awayScore></item12><item13><homeTeam>Cincinnati Reds</homeTeam><awayTeam>Los Angeles Dodgers</awayTeam><homeScore>4</homeScore><awayScore>8</awayScore></item13><item14><homeTeam>Pittsburgh Pirates</homeTeam><awayTeam>Chicago Cubs</awayTeam><homeScore>5</homeScore><awayScore>14</awayScore></item14><item15><homeTeam>Baltimore Orioles</homeTeam><awayTeam>Washington Nationals</awayTeam><homeScore>7</homeScore><awayScore>0</awayScore></item15><item16><homeTeam>Tampa Bay Rays</homeTeam><awayTeam>New York Yankees</awayTeam><homeScore>4</homeScore><awayScore>5</awayScore></item16><item17><homeTeam>Boston Red Sox</homeTeam><awayTeam>Detroit Tigers</awayTeam><homeScore>6</homeScore><awayScore>2</awayScore></item17><item18><homeTeam>Atlanta Braves</homeTeam><awayTeam>San Francisco Giants</awayTeam><homeScore>4</homeScore><awayScore>3</awayScore></item18><item19><homeTeam>Minnesota Twins</homeTeam><awayTeam>Cleveland Guardians</awayTeam><homeScore>10</homeScore><awayScore>11</awayScore></item19></MLB></root>
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <Date>2022-06-29</Date>
+    <NumGames>19</NumGames>
+    <MLB>
+        <item1>
+            <homeTeam>Chicago Cubs</homeTeam>
+            <awayTeam>Cincinnati Reds</awayTeam>
+            <homeScore>3</homeScore>
+            <awayScore>5</awayScore>
+        </item1>
+        <item2>
+            <homeTeam>Kansas City Royals</homeTeam>
+            <awayTeam>Texas Rangers</awayTeam>
+            <homeScore>3</homeScore>
+            <awayScore>8</awayScore>
+        </item2>
+        <item3>
+            <homeTeam>Colorado Rockies</homeTeam>
+            <awayTeam>Los Angeles Dodgers</awayTeam>
+            <homeScore>7</homeScore>
+            <awayScore>4</awayScore>
+        </item3>
+        <item4>
+            <homeTeam>Los Angeles Angels</homeTeam>
+            <awayTeam>Chicago White Sox</awayTeam>
+            <homeScore>4</homeScore>
+            <awayScore>11</awayScore>
+        </item4>
+        <item5>
+            <homeTeam>Arizona Diamondbacks</homeTeam>
+            <awayTeam>San Diego Padres</awayTeam>
+            <homeScore>7</homeScore>
+            <awayScore>6</awayScore>
+        </item5>
+        <item6>
+            <homeTeam>San Francisco Giants</homeTeam>
+            <awayTeam>Detroit Tigers</awayTeam>
+            <homeScore>4</homeScore>
+            <awayScore>3</awayScore>
+        </item6>
+        <item7>
+            <homeTeam>Seattle Mariners</homeTeam>
+            <awayTeam>Baltimore Orioles</awayTeam>
+            <homeScore>2</homeScore>
+            <awayScore>0</awayScore>
+        </item7>
+        <item8>
+            <homeTeam>Tampa Bay Rays</homeTeam>
+            <awayTeam>Milwaukee Brewers</awayTeam>
+            <homeScore>3</homeScore>
+            <awayScore>5</awayScore>
+        </item8>
+        <item9>
+            <homeTeam>Washington Nationals</homeTeam>
+            <awayTeam>Pittsburgh Pirates</awayTeam>
+            <homeScore>7</homeScore>
+            <awayScore>8</awayScore>
+        </item9>
+        <item10>
+            <homeTeam>New York Yankees</homeTeam>
+            <awayTeam>Oakland Athletics</awayTeam>
+            <homeScore>5</homeScore>
+            <awayScore>3</awayScore>
+        </item10>
+        <item11>
+            <homeTeam>New York Mets</homeTeam>
+            <awayTeam>Houston Astros</awayTeam>
+            <homeScore>0</homeScore>
+            <awayScore>2</awayScore>
+        </item11>
+        <item12>
+            <homeTeam>Kansas City Royals</homeTeam>
+            <awayTeam>Texas Rangers</awayTeam>
+            <homeScore>2</homeScore>
+            <awayScore>1</awayScore>
+        </item12>
+        <item13>
+            <homeTeam>Arizona Diamondbacks</homeTeam>
+            <awayTeam>San Diego Padres</awayTeam>
+            <homeScore>0</homeScore>
+            <awayScore>4</awayScore>
+        </item13>
+        <item14>
+            <homeTeam>San Francisco Giants</homeTeam>
+            <awayTeam>Detroit Tigers</awayTeam>
+            <homeScore>2</homeScore>
+            <awayScore>3</awayScore>
+        </item14>
+        <item15>
+            <homeTeam>Seattle Mariners</homeTeam>
+            <awayTeam>Baltimore Orioles</awayTeam>
+            <homeScore>9</homeScore>
+            <awayScore>3</awayScore>
+        </item15>
+        <item16>
+            <homeTeam>Philadelphia Phillies</homeTeam>
+            <awayTeam>Atlanta Braves</awayTeam>
+            <homeScore>1</homeScore>
+            <awayScore>4</awayScore>
+        </item16>
+        <item17>
+            <homeTeam>Toronto Blue Jays</homeTeam>
+            <awayTeam>Boston Red Sox</awayTeam>
+            <homeScore>5</homeScore>
+            <awayScore>6</awayScore>
+        </item17>
+        <item18>
+            <homeTeam>Cleveland Guardians</homeTeam>
+            <awayTeam>Minnesota Twins</awayTeam>
+            <homeScore>7</homeScore>
+            <awayScore>6</awayScore>
+        </item18>
+        <item19>
+            <homeTeam>St.Louis Cardinals</homeTeam>
+            <awayTeam>Miami Marlins</awayTeam>
+            <homeScore>3</homeScore>
+            <awayScore>4</awayScore>
+        </item19>
+    </MLB>
+</root>

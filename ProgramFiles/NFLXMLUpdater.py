@@ -45,5 +45,3 @@ def updateNFL():
         teamCode = json.load(tc)
     datecode = getTodCode()
     writeNFLXML(recentFinalScores,datecode,teamCode)
-
-updateNFL()
