@@ -2,8 +2,7 @@
 # A Program designed to update the Public Service local XML File with the latest major stock prices
 # Author: Jarod Miller, 2022
 
-import json, datetime, dicttoxml, time, requests
-from xml.dom.minidom import parseString
+import datetime, dicttoxml, time, requests#, json; from xml.dom.minidom import parseString
 
 def retrieveStockPrice(tick, TOL):
     url = "https://api.polygon.io/v2/aggs/ticker/"+tick+"/prev"

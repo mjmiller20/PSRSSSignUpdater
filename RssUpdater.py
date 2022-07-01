@@ -8,10 +8,27 @@ from ProgramFiles.MLBXMLUpdater import updateMLB
 from ProgramFiles.NFLXMLUpdater import updateNFL
 
 print("Begin Stock XML Update...")
-updateStock()
-print("Begin NBA XML Update...")
-updateNBA()
-print("Begin MLB XML Update...")
-updateMLB()
-print("Begin NFL XML Update...")
-updateNFL()
+try:
+    updateStock()
+except:
+    print("Could not update Stock XML.")
+finally:
+    print("Begin NBA XML Update...")
+    try:
+        updateNBA()
+    except:
+        print("Could not update NBA XML.")
+    finally:
+        print("Begin MLB XML Update...")
+        try:
+            updateMLB()
+        except:
+            print("Could not update MLB XML.")
+        finally:
+            print("Begin NFL XML Update...")
+            try:
+                updateNFL()
+            except:
+                print("Could not update NFL XML.")
+            finally:
+                print("All updates completed.")

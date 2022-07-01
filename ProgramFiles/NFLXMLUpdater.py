@@ -3,7 +3,6 @@
 # Author: Jarod Miller, 2022
 
 import datetime, dicttoxml, json, os, ssl
-from time import sleep
 import pandas as pd
 
 def getTodCode():
@@ -15,7 +14,7 @@ def retrieveNFL(yr):
     ssl._create_default_https_context = ssl._create_unverified_context
     pd.options.mode.chained_assignment = None  # default='warn'
     year = yr
-    data = pd.read_csv('https://github.com/guga31bb/nflfastR-data/blob/master/data/play_by_play_'+str(year)+'.csv.gz?raw=True', compression='gzip', low_memory=False)
+    data = pd.read_csv("https://github.com/guga31bb/nflfastR-data/blob/master/data/play_by_play_"+str(year)+".csv.gz?raw=True", compression='gzip', low_memory=False)
     data.to_csv('ProgramFiles/KeyFiles/.NFL_tmp.csv.gz', compression='gzip', index=False)
     data = pd.read_csv('ProgramFiles/KeyFiles/.NFL_tmp.csv.gz', compression='gzip', low_memory=False)
     finalPlays = data.loc[data.game_seconds_remaining==0]
@@ -40,7 +39,7 @@ def writeNFLXML(recentFinalScores, datecode, teamCode):
         xml.write(scoreXML.decode())
 
 def updateNFL():
-    recentFinalScores = retrieveNFL(datetime.datetime.today().year if (datetime.datetime.today().month>6) else datetime.datetime.today().year-1)
+    recentFinalScores = retrieveNFL(datetime.datetime.today().year if (datetime.datetime.today().month>7) else datetime.datetime.today().year-1)
     with open("ProgramFiles/KeyFiles/nflTeamDict.json") as tc:
         teamCode = json.load(tc)
     datecode = getTodCode()

@@ -2,7 +2,7 @@
 # A Program designed to update the Public Service local XML File with the latest MLB Scores
 # Author: Jarod Miller, 2022
 
-import datetime, requests, dicttoxml, time, json
+import datetime, requests, dicttoxml, time#, json
 
 def retrieveDate(tod):
     delt = datetime.timedelta(days = 1)
