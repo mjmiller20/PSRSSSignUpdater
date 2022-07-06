@@ -5,7 +5,7 @@
 import datetime, requests, dicttoxml, time#, json
 
 def retrieveDate(tod):
-    delt = datetime.timedelta(days = 1)
+    delt = datetime.timedelta(days = 4)
     yes = tod-delt
     day = yes.strftime("%d")[1] if yes.strftime("%d")[0]=='0' else yes.strftime('%d')
     urlyes = yes.strftime("%Y") + "-" + yes.strftime("%m") + "-" + day
@@ -18,7 +18,7 @@ def retrieveMLB(date,TOL):
         headers = {"X-RapidAPI-Key":key.read(),"X-RapidAPI-Host":"api-baseball.p.rapidapi.com"}
     try:
         MLBResponse = requests.request("GET", url, headers=headers, params=querystring) #print(type(MLBResponse))
-        MLBJSON = MLBResponse.json() #print(type(MLBJSON)) #dump = json.dumps(MLBJSON, indent=2) #print(type(dump)) #print(dump) #MLBScore = {} #i=1 #for l in MLBJSON: #    MLBScore["Game " + str(i)] = {"AwayTeam": l["AwayTeam"], "AwayTeamScore": l["AwayTeamRuns"], "HomeTeam": l["HomeTeam"], "HomeTeamScore": l["HomeTeamRuns"]} #    i=i+1
+        MLBJSON = MLBResponse.json() #print(type(MLBJSON)); dump = json.dumps(MLBJSON, indent=2); print(type(dump)); print(dump) #MLBScore = {} #i=1 #for l in MLBJSON: #    MLBScore["Game " + str(i)] = {"AwayTeam": l["AwayTeam"], "AwayTeamScore": l["AwayTeamRuns"], "HomeTeam": l["HomeTeam"], "HomeTeamScore": l["HomeTeamRuns"]} #    i=i+1
         return MLBJSON
     except requests.exceptions.Timeout:
         if TOL == 0:
