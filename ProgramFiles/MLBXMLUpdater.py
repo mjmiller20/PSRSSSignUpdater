@@ -52,3 +52,5 @@ def updateMLB():
     date = retrieveDate(datetime.datetime.now()) #print(date)
     leagueResponse = retrieveMLB(date, 10)
     writeMLBXML(date, leagueResponse)
+
+#updateMLB()

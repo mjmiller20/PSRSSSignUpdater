@@ -57,3 +57,5 @@ def updateStock():
             print("")
         stockDat.append(retrieveStockPrice(stockTick[i],10)) #print(type(stockDat)); print(stockDat)
     writeStockXML(stockTick, stockDat)
+
+updateStock()

@@ -1,2 +1,6 @@
 feed.rss 
 test.py 
+ProgramFiles/__pycache__
+__pycache__
+KeyFiles/RapidAPIKey.txt
+KeyFiles/StockAPIKey.txt
